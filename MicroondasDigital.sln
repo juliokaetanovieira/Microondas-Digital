@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroondasDigital", "MicroondasDigital\MicroondasDigital.csproj", "{FA04FBA7-1C6D-4CC2-9250-22F4A7611C26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA04FBA7-1C6D-4CC2-9250-22F4A7611C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA04FBA7-1C6D-4CC2-9250-22F4A7611C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA04FBA7-1C6D-4CC2-9250-22F4A7611C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA04FBA7-1C6D-4CC2-9250-22F4A7611C26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47257F27-A17F-4803-849D-D14B956C27A5}
+	EndGlobalSection
+EndGlobal

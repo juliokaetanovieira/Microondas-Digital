@@ -1,0 +1,57 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2 style="text-align: center;">Informar Dados do Microondas</h2>
+
+<form asp-controller="Microondas" asp-action="IniciarAquecimento" method="post" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <!-- Campos do formulário -->
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+        <div style="margin-right: 10px;">
+            <label for="tempo">Tempo:</label>
+            <input type="text" id="tempo" name="tempo" />
+        </div>
+        <div>
+            <label for="potencia">Potência:</label>
+            <input type="text" id="potencia" name="potencia" />
+        </div>
+    </div>
+    <div>@TempData["Mensagem"]</div>
+    <!-- Botão de envio -->
+    <div>
+        <button type="submit" id="btnIniciarAquecimento">Iniciar Aquecimento</button>
+        <button id="btnPausaCancelar">Pausa/Cancelar</button>
+    </div>
+</form>
+
+
+<div id="tecladoDigital">
+    <div class="linha">
+        <button class="tecla">1</button>
+        <button class="tecla">2</button>
+        <button class="tecla">3</button>
+    </div>
+    <div class="linha">
+        <button class="tecla">4</button>
+        <button class="tecla">5</button>
+        <button class="tecla">6</button>
+    </div>
+    <div class="linha">
+        <button class="tecla">7</button>
+        <button class="tecla">8</button>
+        <button class="tecla">9</button>
+    </div>
+    <div class="linha">
+        <button class="tecla">0</button>
+    </div>
+</div>
+   
+<div class="programas-container" id="programas">
+    <button id="btnPrograma1">Pipoca</button>
+    <button id="btnPrograma2">Leite</button>
+    <button id="btnPrograma3">Carnes de boi</button>
+    <button id="btnPrograma3">Frango</button>
+    <button id="btnPrograma3">Feijão</button>
+</div>
